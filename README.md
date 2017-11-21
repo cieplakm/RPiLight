@@ -4,8 +4,9 @@ Lamp control via Raspberry Pi B+ and Android smartphone
 
 ## Getting Started
 
-I've startet from install Raspian on RaspberryPi. Everything in https://www.raspberrypi.org/downloads/;
-Then instaled nesesary libs and Java.
+I've startet from install Raspbian on RaspberryPi (instructions-> https://www.raspberrypi.org/downloads/)
+
+Then instaled nesesary libs and Java:
 
 Java(https://www.raspberrypi.org/blog/oracle-java-on-raspberry-pi/)
 ```
