@@ -6,7 +6,7 @@ Lamp control via Raspberry Pi B+ and Android smartphone
 
 I've startet from install Raspbian on RaspberryPi (instructions-> https://www.raspberrypi.org/downloads/)
 
-Then instaled nesesary libs and Java:
+Then I instaled nesesary libs and Java:
 
 Java(https://www.raspberrypi.org/blog/oracle-java-on-raspberry-pi/)
 ```
@@ -17,6 +17,11 @@ Pi4J (http://pi4j.com/install.html#EasyPreferred)
 ```
 curl -s get.pi4j.com | sudo bash
 ```
+
+### Used hardware
+Relay
+![alt text](https://github.com/cieplakm/RPiLight/tree/master/imgs/przekaznik.jpg)
+
 
 ### Prerequisites
 
