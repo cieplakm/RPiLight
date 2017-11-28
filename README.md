@@ -41,6 +41,8 @@ WiFi Dongle
 
 ### Hadrware connection
 
+Connection like in ![SCHEMA](https://github.com/cieplakm/RPiLight/blob/master/imgs/schema.jpg?raw=true)
+
 ## Software
 
 
