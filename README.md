@@ -39,7 +39,7 @@ Plug and socket(~10PLN)
 WiFi Dongle
 
 
-### Hadrware connection
+### Hardware connection
 
 Connection like in ![SCHEMA](https://github.com/cieplakm/RPiLight/blob/master/imgs/schema.jpg?raw=true)
 
@@ -55,7 +55,7 @@ https://github.com/cieplakm/rpilight-communication-lib
 
 ### Server
 
-I used my lib to create simple server
+I write lib to create simple server and client.
 
 ```
 https://github.com/cieplakm/rpi-light-server
@@ -63,13 +63,25 @@ https://github.com/cieplakm/rpi-light-server
 
 ### Client
 
-and client as Android app - RPiLight
+My client is a Android app - RPiLight
 
 ```
 https://github.com/cieplakm/rpilight-android-app
 ```
 
-### Demo YouTube
+### RaspberryPi configure
+
+To start Server at boot I edited
+```
+/etc/rc.local
+````
+and added before 'exit 0'
+
+```
+sudo java -cp .:classes:/home/pi/share/rpi-light/libs/'*':/home/pi/share/rpi-light: RPiServer 
+```
+
+## Demo
 
 ```
 https://youtu.be/Et3TMCKdom8
