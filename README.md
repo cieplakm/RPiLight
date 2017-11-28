@@ -8,14 +8,19 @@ I've startet from install Raspbian on RaspberryPi (instructions-> https://www.ra
 
 Then I instaled nesesary libs and Java:
 
-Java(https://www.raspberrypi.org/blog/oracle-java-on-raspberry-pi/)
+Java
 ```
-sudo apt-get update && sudo apt-get install oracle-java7-jdk
+https://www.raspberrypi.org/blog/oracle-java-on-raspberry-pi/
 ```
 
-Pi4J (http://pi4j.com/install.html#EasyPreferred)
+Pi4J 
 ```
-curl -s get.pi4j.com | sudo bash
+http://pi4j.com/install.html#EasyPreferred
+```
+
+WiringPi (Pi4J needs it)
+```
+http://wiringpi.com/download-and-install/
 ```
 
 
@@ -29,11 +34,42 @@ Some wire (~5PLN)
 
 Wire for RPi (40 pins)
 
-Plug and socket(~10zł)
+Plug and socket(~10PLN)
 
 WiFi Dongle
 
 
+### Hadrware connection
 
-.....
+## Software
+
+
+Here you find my lib for this project. There are client and server objects
+
+```
+https://github.com/cieplakm/rpilight-communication-lib
+```
+
+
+### Server
+
+I used my lib to create simple server
+
+```
+https://github.com/cieplakm/rpi-light-server
+```
+
+### Client
+
+and client as Android app - RPiLight
+
+```
+https://github.com/cieplakm/rpilight-android-app
+```
+
+### Demo YouTube
+
+```
+https://youtu.be/Et3TMCKdom8
+```
 
