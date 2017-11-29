@@ -6,7 +6,7 @@ Lamp control via Raspberry Pi B+ and Android smartphone
 
 I've startet from install Raspbian on RaspberryPi (instructions-> https://www.raspberrypi.org/downloads/)
 
-Then I instaled nesesary libs and Java:
+Then I instaled necessary libs and Java:
 
 Java
 ```
@@ -55,7 +55,7 @@ https://github.com/cieplakm/rpilight-communication-lib
 
 ### Server
 
-I write lib to create simple server and client.
+I've  written lib to create simple server and client.
 
 ```
 https://github.com/cieplakm/rpi-light-server
@@ -63,7 +63,7 @@ https://github.com/cieplakm/rpi-light-server
 
 ### Client
 
-My client is a Android app - RPiLight
+My client is an Android app - RPiLight
 
 ```
 https://github.com/cieplakm/rpilight-android-app
